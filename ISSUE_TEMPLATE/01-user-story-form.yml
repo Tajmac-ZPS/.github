@@ -1,0 +1,47 @@
+name: 🙍‍♂️ User Story
+description: Use this template to define a new user story.
+title: "<User story title>"
+type: "User Story"
+projects: ["Tajmac-ZPS/1"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      value: |
+        **As a:** 
+        **I want:** 
+        **So that:** 
+    validations:
+      required: true
+  - type: textarea
+    id: story-description
+    attributes:
+      label: Additional details
+      description: Provide further specification describing the required functionality.
+    validations:
+      required: false
+  - type: textarea
+    id: story-criteria
+    attributes:
+      label: Acceptance criteria
+      description: Define a list of necessary conditions for the solution to be accepted.
+      value: |
+        - [ ] crit 1 
+        - [ ] crit 2
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: story-dod
+    attributes:
+      label: Definition of done
+      description: Specify the conditions under which the issue can be closed. Modify as required.
+      value: |
+         - [ ] Code is implemented, reviewed, approved and merged.
+         - [ ] All implemented and manual tests are passed.
+         - [ ] All criteria are accepted.
+         - [ ] All subtasks are closed.
+         - [ ] User/Technical documentation is up-to-date.
+    validations:
+      required: true
