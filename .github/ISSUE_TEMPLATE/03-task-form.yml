@@ -1,13 +1,13 @@
 name: ☑️ Task
-description: Use this template for a separate task that should be traced.
-title: "<Task title>"
+description: Tuto šablonu použijte pro jiný samostatný úkol.
+title: "<Název úkolu>"
 type: "Task"
 projects: ["Tajmac-ZPS/1"]
 body:
   - type: textarea
     id: task-description
     attributes:
-      label: Description
-      description: Briefly describe the required task.
+      label: Popis
+      description: Popište požadovaný úkol.
     validations:
       required: true

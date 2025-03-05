@@ -1,6 +1,6 @@
 name: 🙍‍♂️ User Story
-description: Use this template to define a new user story.
-title: "<User story title>"
+description: Tuto šablonu použijte pro vytvoření požadavku na novou funkcionalitu.
+title: "<Název User story>"
 type: "User Story"
 projects: ["Tajmac-ZPS/1"]
 body:
@@ -9,39 +9,38 @@ body:
     attributes:
       label: User story
       value: |
-        **As a:** 
-        **I want:** 
-        **So that:** 
+        Jakožto: [typ uživatele]
+        chci: [funkce]
+        abych: [důvod/cíl]
     validations:
       required: true
   - type: textarea
     id: story-description
     attributes:
-      label: Additional details
-      description: Provide further specification describing the required functionality.
+      label: Podrobnosti
+      description: Uveďte další podrobnosti popisující požadovanou funkčnost.
     validations:
       required: false
   - type: textarea
     id: story-criteria
     attributes:
-      label: Acceptance criteria
-      description: Define a list of necessary conditions for the solution to be accepted.
+      label: Akceptační kritéria
+      description: Definujte seznam nezbytných podmínek pro akceptování výsledného řešení.
       value: |
         - [ ] crit 1 
         - [ ] crit 2
-        ...
     validations:
       required: true
   - type: textarea
     id: story-dod
     attributes:
       label: Definition of done
-      description: Specify the conditions under which the issue can be closed. Modify as required.
+      description: Uveďte podmínky, za kterých lze úkol uzavřít. Upravte podle potřeby.
       value: |
-         - [ ] Code is implemented, reviewed, approved and merged.
-         - [ ] All implemented and manual tests are passed.
-         - [ ] All criteria are accepted.
-         - [ ] All subtasks are closed.
-         - [ ] User/Technical documentation is up-to-date.
+         - [ ] Kód je implementován, zkontrolován, schválen a sloučen do hlavní větve.
+         - [ ] Všechny implementované i manuální testy jsou úspěšné.
+         - [ ] Všechna kritéria jsou akceptována.
+         - [ ] Všechny podúlohy jsou uzavřené.
+         - [ ] Uživatelská/Technická dokumentace je aktualizována.
     validations:
       required: true
