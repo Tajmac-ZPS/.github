@@ -1,0 +1,13 @@
+name: 🗃️ Epic
+description: Tuto šablonu použijte pro velký projekt nebo komplexní požadavek.
+title: "<Název epiku>"
+type: "Epic"
+projects: ["Tajmac-ZPS/1"]
+body:
+  - type: textarea
+    id: epic-description
+    attributes:
+      label: Popis
+      description: Stručně popište projekt, jeho cíl a požadavky. Po vytvoření připojte související úkoly jako subissues.
+    validations:
+      required: true
