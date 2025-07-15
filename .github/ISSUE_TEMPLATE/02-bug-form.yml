@@ -2,7 +2,6 @@ name: 🐞 Bug Report
 description: Tuto šablonu použijte pro nahlášení nové chyby.
 title: "<Název chyby>"
 type: "Bug"
-projects: ["Tajmac-ZPS/1"]
 body:
   - type: textarea
     id: bug-description

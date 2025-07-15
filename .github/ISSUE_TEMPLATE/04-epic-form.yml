@@ -2,7 +2,6 @@ name: 🗃️ Epic
 description: Tuto šablonu použijte pro velký projekt nebo komplexní požadavek.
 title: "<Název epiku>"
 type: "Epic"
-projects: ["Tajmac-ZPS/1"]
 body:
   - type: textarea
     id: epic-description

@@ -2,7 +2,6 @@ name: ☑️ Task
 description: Tuto šablonu použijte pro jiný samostatný úkol.
 title: "<Název úkolu>"
 type: "Task"
-projects: ["Tajmac-ZPS/1"]
 body:
   - type: textarea
     id: task-description

@@ -2,7 +2,6 @@ name: 🙍‍♂️ User Story
 description: Tuto šablonu použijte pro vytvoření požadavku na novou funkcionalitu.
 title: "<Název User story>"
 type: "User Story"
-projects: ["Tajmac-ZPS/1"]
 body:
   - type: textarea
     id: story
